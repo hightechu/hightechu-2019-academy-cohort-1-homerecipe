@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<style type="text/css">
+
+.divTable{
+	display: table;
+	width: 100%;
+}
+.divTableRow {
+	display: table-row;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+}
+.divTableCell, .divTableHead {
+	border: 1px solid #999999;
+	display: table-cell;
+	padding: 3px 10px;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold;
+}
+.divTableFoot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody {
+	display: table-row-group;
+}
+
+#topcell {
+    text-align: center;
+    height:50px;
+}
+
+#scrollable {
+    overflow:scroll;
+    height:300px;
+}
+</style>
+
+<html>
+
+<form action="/start-search">
+
+<body>
+    <div class="divTable">
+        <div class="divTableBody">
+            <div class="divTableRow">
+                <div class="divTableCell"><h2 id="topcell">Ingredients</h2></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="divTable">
+        <div class="divTableBody">
+        <div class="divTableRow">
+        <div class="divTableCell">Protein</div>
+        <div class="divTableCell">Grains</div>
+        <div class="divTableCell">Fruits</div>
+        <div class="divTableCell">Vegetables</div>
+        <div class="divTableCell">Others</div>
+        </div>
+        </div>
+        <div class="divTableBody">
+            <div class="divTableRow">
+            <div class="divTableCell"><p id="scrollable">
+                <label><input type="checkbox" name="Sort">Ground Chicken</label><br/>
+                <label><input type="checkbox" name="Sort">Ground Beef</label><br/>
+                <label><input type="checkbox" name="Sort">Beans</label><br/>
+                <label><input type="checkbox" name="Sort">Venison</label><br/>
+                <label><input type="checkbox" name="Sort">Mutton</label><br/>
+                <label><input type="checkbox" name="Sort">Legumes</label><br/>
+                <label><input type="checkbox" name="Sort">Eggs</label><br/>
+                <label><input type="checkbox" name="Sort">Tofu</label><br/>
+                <label><input type="checkbox" name="Sort">Peanuts</label><br/>
+                <label><input type="checkbox" name="Sort">Almonds</label><br/><label><input type="checkbox" name="Sort">Chicken</label><br/>
+                <label><input type="checkbox" name="Sort">Ham</label><br/>
+                <label><input type="checkbox" name="Sort">Pork</label><br/>
+                <label><input type="checkbox" name="Sort">Bacon</label><br/>
+                <label><input type="checkbox" name="Sort">Sausages</label><br/>
+                <label><input type="checkbox" name="Sort">Steak</label><br/>
+                <label><input type="checkbox" name="Sort">Beef Ribs</label><br/>
+                <label><input type="checkbox" name="Sort">Pork Ribs</label><br/>
+                <label><input type="checkbox" name="Sort">Chicken Breasts</label><br/>
+                <label><input type="checkbox" name="Sort">Chicken Thighs</label><br/>
+                
+
+
+
+
+
+            </p>
+                                    
+            </div>
+            <div class="divTableCell"> <p id="scrollable">
+                
+                <label><input type="checkbox" name="Sort">Rice</label><br/>
+                <label><input type="checkbox" name="Sort">Bread</label><br/>
+                <label><input type="checkbox" name="Sort">Bagels</label><br/>
+                <label><input type="checkbox" name="Sort">Pasta</label><br/>
+                <label><input type="checkbox" name="Sort">Barley</label><br/>
+                <label><input type="checkbox" name="Sort">Oatmeal</label><br/>
+                <label><input type="checkbox" name="Sort">Crackers</label><br/>
+                <label><input type="checkbox" name="Sort">Cereal</label><br/>
+                
+                </p>
+            </div>
+            <div class="divTableCell"><p id="scrollable">
+                    <label><input type="checkbox" name="Sort">Apples</label><br/>
+                    <label><input type="checkbox" name="Sort">Tomatoes</label><br/>
+                    <label><input type="checkbox" name="Sort">Apricots</label><br/>
+                    <label><input type="checkbox" name="Sort">Avocados</label><br/>
+                    <label><input type="checkbox" name="Sort">Bananas</label><br/>
+                    <label><input type="checkbox" name="Sort">Blackberries</label><br/>
+                    <label><input type="checkbox" name="Sort">Blueberries</label><br/>
+                    <label><input type="checkbox" name="Sort">Rasberries</label><br/>
+                    <label><input type="checkbox" name="Sort">Cherries</label><br/>
+                    <label><input type="checkbox" name="Sort">Coconuts</label><br/>
+                    <label><input type="checkbox" name="Sort">Grapes</label><br/>
+                    <label><input type="checkbox" name="Sort">Raisins</label><br/>
+                    <label><input type="checkbox" name="Sort">Durians</label><br/>
+                    <label><input type="checkbox" name="Sort">Pineapples</label><br/>
+                    <label><input type="checkbox" name="Sort">Açaí Berries</label><br/>
+                    <label><input type="checkbox" name="Sort">Blackberries</label><br/>
+                    <label><input type="checkbox" name="Sort">Blueberries</label><br/>
+                    <label><input type="checkbox" name="Sort">Rasberries</label><br/>
+                    <label><input type="checkbox" name="Sort">Cherries</label><br/>
+                    <label><input type="checkbox" name="Sort">Coconuts</label><br/>
+                    
+                </p>
+
+            </div>
+            <div class="divTableCell">Others
+
+            </div>
+            </div>
+            </div>
+
+        </div>
+
+        <div class="divTable">
+            <div class="divTableBody">
+                <div class="divTableRow">
+                    <div class="divTableCell"><h2 id="topcell">Specifications</h2></div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="divTable">
+            <div class="divTableBody">
+            <div class="divTableRow">
+            <div class="divTableCell">Restrictions/Allergies</div>
+            <div class="divTableCell">Time</div>
+            <div class="divTableCell">Difficulty</div>
+            <div class="divTableCell">Flavour</div>
+            </div>
+            </div>
+            <div class="divTableBody">
+                <div class="divTableRow">
+                <div class="divTableCell"><p id="scrollable">
+                    <label><input type="checkbox" name="Sort">Vegetarian</label><br/>
+                    <label><input type="checkbox" name="Sort">Vegan</label><br/>
+                    <label><input type="checkbox" name="Sort">Kosher</label><br/>
+                    <label><input type="checkbox" name="Sort">Dairy</label><br/>
+                    <label><input type="checkbox" name="Sort">Celiac</label><br/>
+                    <label><input type="checkbox" name="Sort">Wheat</label><br/>
+                    <label><input type="checkbox" name="Sort">Soy</label><br/>
+                    <label><input type="checkbox" name="Sort">Fish</label><br/>
+                    <label><input type="checkbox" name="Sort">Shellfish</label><br/>
+                    <label><input type="checkbox" name="Sort">Halal</label><br/>
+                    
+    
+    
+    
+    
+    
+                </p>
+                                        
+                </div>
+                <div class="divTableCell"> 
+                </div>
+                <div class="divTableCell">Fruits and Vegetables
+    
+                </div>
+                <div class="divTableCell">Others
+    
+                </div>
+                </div>
+                </div>
+    
+            </div>
+    
+
+</body>
+
+</form>
+
+
+</html>
