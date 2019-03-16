@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>title</title>
+    <link rel="stylesheet" type="text/css" href="recipe.css">
+  </head>
+  <body>
+      <h2 class="header" id="top" >Grilled Cheese </h2>
+      <h2 class="header"> 10 min </h2>
+      <h2 class="header"> 1 serving </h2>
+      <div class="container">
+        <img id="image" src="images/cheese.jpg" alt="grilled cheese">
+      </div>
+      <p> <b>Ingredients</b>
+        <ul>
+          <li> 2 cheese slices</li>
+          <li> 1 teaspoon salt</li>
+          <li> 2 slices bread </li>
+          <li> 2 tbsp butter</li>
+        </ul>  
+      </p>
+      <p>
+          Direction
+          <ol>
+              <li>spread butter on bread slices</li>
+              <li>put cheese on bread</li>
+              <li>grill in pan until brown</li>
+            </ol>
+      </p>
+      <p>
+        <form>
+            <fieldset class="rating">
+                <legend>rating</legend>
+              
+                <input id="demo-1" type="radio" name="demo" value="1"> 
+                <label for="demo-1">1 star</label>
+                <input id="demo-2" type="radio" name="demo" value="2">
+                <label for="demo-2">2 stars</label>
+                <input id="demo-3" type="radio" name="demo" value="3">
+                <label for="demo-3">3 stars</label>
+                <input id="demo-4" type="radio" name="demo" value="4">
+                <label for="demo-4">4 stars</label>
+                <input id="demo-5" type="radio" name="demo" value="5">
+                <label for="demo-5">5 stars</label>
+                
+                <div class="stars">
+                    <label for="demo-1" aria-label="1 star" title="1 star"></label>
+                    <label for="demo-2" aria-label="2 stars" title="2 stars"></label>
+                    <label for="demo-3" aria-label="3 stars" title="3 stars"></label>
+                    <label for="demo-4" aria-label="4 stars" title="4 stars"></label>
+                    <label for="demo-5" aria-label="5 stars" title="5 stars"></label>   
+                </div>
+                
+            </fieldset>
+              
+        </form>
+    </p>
+    <p>
+
+     Any comments:
+
+        <form action="/html/tags/html_form_tag_action.cfm" method="post">
+            <div>
+            <textarea name="comments" id="comments" style="font-family:sans-serif;font-size:1.2em;">
+            </textarea>
+            </div>
+            <input type="submit" value="Submit">
+            </form>
+    </p>
+  </body>
+</html>
