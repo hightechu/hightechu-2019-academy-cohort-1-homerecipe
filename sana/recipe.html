@@ -4,70 +4,102 @@
     <meta charset="UTF-8">
     <title>title</title>
     <link rel="stylesheet" type="text/css" href="recipe.css">
+    <link rel="stylesheet" type="text/css" href="slideshow.css">
   </head>
   <body>
       <h2 class="header" id="top" >French Fries </h2>
-      <h2 class="header"> 30 min </h2>
-      <h2 class="header"> 2 serving </h2>
-      <div class="container">
-        <img id="image" src="https://www.gannett-cdn.com/-mm-/00328455916bb45ca99246179b52b99baca14f7b/c=0-0-642-361/local/-/media/2018/04/11/USATODAY/usatsports/Reviewed.com-RvEW-21566-Untitled_design__82_.png?width=3200&height=1680&fit=crop" alt="French Fries">
+      <h2 class="header" style="color: grey; font-size:18px;""> 30 min </h2>
+      <h2 class="header" style="color: grey; font-size:18px;" > 2 serving </h2>
+      <div id="box">
+      <div class="container" >
+          <div class="slideshow-container">
+              <!-- Full-width images with number and caption text -->
+              <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="/media/hightechu/8C41-251C/hightechu-spring2019-group-project-aces/sana/images/french.jpg" alt="French Fries" style="width: 200px; height:150px;">
+                <div class="text">Caption Text</div>
+              </div>
+            
+              <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="/media/hightechu/8C41-251C/hightechu-spring2019-group-project-aces/sana/images/french-fries.jpg" alt="French Fries" style="width: 200px; height:150px;">
+                <div class="text">Caption Two</div>
+              </div>
+            
+              <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="/media/hightechu/8C41-251C/hightechu-spring2019-group-project-aces/sana/images/shutterstock_510881971.jpg" alt="French Fries" style="width: 200px; height:150px;">
+                <div class="text">Caption Three</div>
+              </div>
+            
+              <!-- Next and previous buttons -->
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+            
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
       </div>
-      <p> Ingredients 
-        <ul>
+      <p>
+        <u><b> Ingredients</b></u>
+        <ul> 
           <li> 2 pounds potatoes, peeled</li>
           <li> 1 teaspoon salt</li>
           <li> 1 teaspoon paprika </li>
           <li> 11/2 cup water </li>
           <li> 1 cup vegetable oil </li>
         </ul>  
-      </p>
-      <p>
-          Direction
-          <ol>
+        <u><b> Direction</b></u>
+          <ol>  
               <li>Slice potatoes into French fries, and place into cold water so they won't turn brown while you prepare the oil.</li>
               <li>Heat oil in a large skillet over medium-high heat. While the oil is heating, sift the flour, garlic salt, onion salt, (regular) salt, and paprika into a large bowl. Gradually stir in enough water so that the mixture can be drizzled from a spoon.</li>
               <li>Dip potato slices into the batter one at a time, and place in the hot oil so they are not touching at first. The fries must be placed into the skillet one at a time, or they will clump together. Fry until golden brown and crispy. Remove and drain on paper towels.</li>
-            </ol>
-      </p>
+           </ol>
+      </p> 
+    </div>
       <p>
         <form>
             <fieldset class="rating">
                 <legend>rating</legend>
               
-                <input id="demo-1" type="radio" name="demo" value="1"> 
-                <label for="demo-1">1 star</label>
-                <input id="demo-2" type="radio" name="demo" value="2">
-                <label for="demo-2">2 stars</label>
-                <input id="demo-3" type="radio" name="demo" value="3">
-                <label for="demo-3">3 stars</label>
-                <input id="demo-4" type="radio" name="demo" value="4">
-                <label for="demo-4">4 stars</label>
-                <input id="demo-5" type="radio" name="demo" value="5">
-                <label for="demo-5">5 stars</label>
+                <input id="1star" type="radio" name="star" value="1"> 
+                <label for="1star">1 star</label>
+                <input id="2star" type="radio" name="star" value="2">
+                <label for="2star">2 stars</label>
+                <input id="3star" type="radio" name="star" value="3">
+                <label for="3star">3 stars</label>
+                <input id="4star" type="radio" name="star" value="4">
+                <label for="4star">4 stars</label>
+                <input id="5star" type="radio" name="star" value="5">
+                <label for="5star">5 stars</label>
                 
                 <div class="stars">
-                    <label for="demo-1" aria-label="1 star" title="1 star"></label>
-                    <label for="demo-2" aria-label="2 stars" title="2 stars"></label>
-                    <label for="demo-3" aria-label="3 stars" title="3 stars"></label>
-                    <label for="demo-4" aria-label="4 stars" title="4 stars"></label>
-                    <label for="demo-5" aria-label="5 stars" title="5 stars"></label>   
+                    <label for="1star" aria-label="1 star" title="1 star"></label>
+                    <label for="2star" aria-label="2 stars" title="2 stars"></label>
+                    <label for="3star" aria-label="3 stars" title="3 stars"></label>
+                    <label for="4star" aria-label="4 stars" title="4 stars"></label>
+                    <label for="5star" aria-label="5 stars" title="5 stars"></label>   
                 </div>
                 
             </fieldset>
-              
         </form>
     </p>
     <p>
 
      Any comments:
-
-        <form action="/html/tags/html_form_tag_action.cfm" method="post">
             <div>
             <textarea name="comments" id="comments" style="font-family:sans-serif;font-size:1.2em;">
             </textarea>
             </div>
-            <input type="submit" value="Submit">
-            </form>
+            <input type="submit" value="Submit" onclick="review()">
     </p>
+  </div>
+  <script src="recipe.js"></script>
+  <script src="cookies.js"></script>
   </body>
 </html>
