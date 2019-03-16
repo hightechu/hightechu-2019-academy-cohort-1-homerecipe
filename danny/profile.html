@@ -1,55 +1,30 @@
-<html>
 <!DOCTYPE html>
-<head>
- <title>
-     test
-    
- </title>
+<html>
+   <head>
+      <title>test</title>
+      <link href="css/profile.css" rel="stylesheet">
+   </head>
 
-<style>
-
-    a{
-        text-decoration: none;
-        color:black;
-    }
-    .container{
-        text-align: center;
-        padding-top: 0px;
-        padding-left: 200px;
-    }
-    .b{
-       padding-top: 90px;
-       text-align: center; 
-    }
-        
-
-
-</style>
-</head>
-
-<body>
-    <h1>
-
-        <a href="http://freecatphotoapp.com" target="_blank">Websitename</a>
-    </h1>
-     
-     <h2 class="b">Creating a Pofile</h2>
-    
+   <body>
+    <h1><a href="http://freecatphotoapp.com" target="_blank">My Food Maker</a></h1>
     <div class="container">
-        
+        <h2 class="b">Creating a Pofile</h2>
         <div font-size:12px>your name</div>
-        <input type="text" placeholder="your name">
+        <input id="name" type="text" placeholder="your name">
         
         <div font-size:12px>user name</div>
-        <input type="text" placeholder="user name(ID)">
+        <input id="username" type="text" placeholder="user name(ID)">
 
-        <div font-size:12px>passoword</div>
-        <input type="text" placeholder="passoword">
+        <div font-size:12px>password</div>
+        <input id="password" type="password" placeholder="passoword">
 
         <div font-size:12px>e-mail</div>
-        <input type="text" placeholder="e-mail">
-
+        <input id="email" type="text" placeholder="e-mail">
+        <br><br>
+        <button type="submit" onclick="profileAJAX()">Create Profile</button>    
     </div>
-</body>
+    <script src="js/cookies.js"></script>
+    <script src="js/profile.js"></script>
+   </body>
 
 </html>
