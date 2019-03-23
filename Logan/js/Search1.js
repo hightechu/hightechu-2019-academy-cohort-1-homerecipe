@@ -1,5 +1,6 @@
 // JavaScript source code
 function searchAJAX() {
+    window.location.replace("../project/results page/results.html");
     var location = "https://www.food2fork.com/api/search?key=bfdb2d455f170f5cffb163e37166512e&q=";
     var http_request = new XMLHttpRequest();
 

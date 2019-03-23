@@ -1,4 +1,5 @@
 function profileAJAX() {
+    window.location.replace("../Logan/Search1.html");
     var location = "http://localhost:3000/api/users";
     var http_request = new XMLHttpRequest();
 
