@@ -2,6 +2,15 @@ window.onload = function(){
 
     document.getElementById('top').innerHTML = frenchFries[0];
     document.getElementById('time').innerHTML = frenchFries[1] + " mins";
+    document.getElementById('servings').innerHTML = frenchFries[2] + " servings";
+    document.getElementById('ingredientsone').innerHTML = frenchFries[3][0];
+    document.getElementById('ingredientstwo').innerHTML = frenchFries[3][1];
+    document.getElementById('ingredientsthree').innerHTML = frenchFries[3][2];
+    document.getElementById('ingredientsfour').innerHTML = frenchFries[3][3];
+    document.getElementById('ingredientsfive').innerHTML = frenchFries[3][4];
+    document.getElementById('directionsone').innerHTML = frenchFries[4][0];
+    document.getElementById('directionstwo').innerHTML = frenchFries[4][1];
+    document.getElementById('directionsthree').innerHTML = frenchFries[4][2];
 
 };
 
