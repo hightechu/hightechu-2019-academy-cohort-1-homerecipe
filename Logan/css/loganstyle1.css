@@ -41,7 +41,7 @@
 p.sticktobot {
 	position: sticky;
 	bottom: 0;
-	background-color: rgba(47, 156, 170, 0.500);
+	background-color: rgba(47, 156, 170, 0.250);
 	padding: 10px;
 	font-size: 20px;
 	text-align: center;
