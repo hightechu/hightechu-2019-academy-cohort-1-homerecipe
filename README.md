@@ -1,18 +1,32 @@
-# HighTechU Group Project 
+# Home Recipe
 
-HighTechU Spring 2019 - Group Project
+**2019 HighTechU Academy - Cohort 1**
 
-### Please write the problem statement of your project.
+## Website
 
+https://hightechu.github.io/hightechu-2019-academy-cohort-1-homerecipe/
 
+## Promo
 
-### Mention the four user stories that your team has decided to work on.
+![Promo of Website](promo.png)
 
-[Erase me and write your response here!]
+![Promo of Website](promo-1.png)
 
-### Design a wireframe for your project.
+![Promo of Website](promo-2.png)
 
-**Note** 
+![Promo of Website](promo-3.png)
 
-* You are free to draw it on paper or use any computer application such as Balsamic.
-* Please create a seperate folder for this question. Name the folder 'wireframe' and then upload the file inside that folder.
+![Promo of Website](promo-4.png)
+
+## Made with:
+
+* HTML
+* CSS
+* JS
+
+## Made by:
+
+* Danny
+* Logan
+* Sana
+* Xinyi
