@@ -1,3 +1,3 @@
 function loginAJAX() {
-    window.location.replace("../Logan/Search1.html");
+    window.location.replace("../logan/Search1.html");
 }
