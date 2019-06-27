@@ -1,4 +1,4 @@
-# Home Recipe
+# MyFood Maker Homemade Recipe Generator
 
 **2019 HighTechU Academy - Cohort 1**
 
