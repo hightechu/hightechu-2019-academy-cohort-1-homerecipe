@@ -4,7 +4,7 @@
 
 ## Website
 
-https://hightechu.github.io/hightechu-2019-academy-cohort-1-homerecipe/
+https://hightechu.github.io/hightechu-academy-homerecipe
 
 ## Promo
 
