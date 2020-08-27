@@ -4,7 +4,7 @@
 
 ## Website
 
-https://hightechu.github.io/hightechu-academy-homerecipe
+[Live Demo](https://hightechu.github.io/hightechu-academy-homerecipe)
 
 ## Promo
 
